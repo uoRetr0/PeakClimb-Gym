@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/PeakClimb-Gym/static/css/main.9dbcd161.css",
-    "main.js": "/PeakClimb-Gym/static/js/main.7a53f99c.js",
+    "main.js": "/PeakClimb-Gym/static/js/main.f29a3230.js",
     "static/media/hero2.jpg": "/PeakClimb-Gym/static/media/hero2.191928c9306f33de058c.jpg",
     "static/media/hero.jpg": "/PeakClimb-Gym/static/media/hero.f0df1a18a6f9e62b5ac1.jpg",
     "index.html": "/PeakClimb-Gym/index.html",
     "main.9dbcd161.css.map": "/PeakClimb-Gym/static/css/main.9dbcd161.css.map",
-    "main.7a53f99c.js.map": "/PeakClimb-Gym/static/js/main.7a53f99c.js.map"
+    "main.f29a3230.js.map": "/PeakClimb-Gym/static/js/main.f29a3230.js.map"
   },
   "entrypoints": [
     "static/css/main.9dbcd161.css",
-    "static/js/main.7a53f99c.js"
+    "static/js/main.f29a3230.js"
   ]
 }
