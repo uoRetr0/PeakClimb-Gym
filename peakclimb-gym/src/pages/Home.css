@@ -1,0 +1,81 @@
+.hero {
+  position: relative;
+  height: 500px;
+  background: url('../../public/images/hero.jpg') center center/cover no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #666;
+  font-size: 2em;
+  margin-top: 0;
+  padding-left: 50%;
+}
+
+.hero::before {
+  content: '';
+  background: rgba(51, 51, 51, 0.1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: #ff7300;
+  font-weight: bold;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  color: #ff6600;
+  margin-bottom: 20px;
+}
+
+.accent {
+  color: #333;
+  background-color: #f4f4f4;
+  border-left: 4px solid #ff6600;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.program-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.map-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #f4f4f4;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.feature-icon {
+  margin-bottom: 15px;
+}
+
+body {
+  padding-top: 70px;
+}

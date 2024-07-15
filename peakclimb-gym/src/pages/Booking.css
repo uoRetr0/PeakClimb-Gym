@@ -1,0 +1,17 @@
+.booking-form-container {
+  background-color: white;
+}
+
+.group-booking-container {
+  background-color: white;
+}
+
+.btn-custom-orange {
+  background-color: #FF6600;
+  border: none;
+  color: white;
+}
+
+.btn-custom-orange:hover {
+  background-color: #e65c00;
+}

@@ -1,0 +1,111 @@
+.container {
+  max-width: 1400px;
+}
+
+.day-card {
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  width: 250px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.day-title {
+  font-weight: bold;
+  color: #444;
+  font-size: 1.5rem;
+}
+
+.time-slot {
+  background-color: #f2f7fb;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.time-slot.occupied {
+  background-color: #ff6600;
+  color: white;
+  padding: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.time-slot.occupied .time-label {
+  color: white;
+  margin-bottom: 4px;
+}
+
+.time-slot.dragging {
+  opacity: 0.5;
+}
+
+.time-slot.drop-target {
+  border-color: #ff5e2c;
+  background-color: #cce5ff;
+}
+
+.time-slot:hover:not(.occupied) {
+  background-color: #e1e9f2;
+}
+
+.time-label {
+  font-weight: bold;
+  color: #333;
+  font-size: 1rem;
+}
+
+.session-text {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+  line-height: 1.2;
+  cursor: grabbing;
+}
+
+.empty-slot {
+  color: #999;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.add-session {
+  font-size: 1rem;
+  padding: 5px 15px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.add-session:hover {
+  background-color: #cc5200;
+}
+
+.remove-session {
+  margin-left: 10px;
+  font-size: 0.9rem;
+}
+
+.delete-session {
+  position: relative;
+  top: -25px;
+  right: 1%;
+  background: #fe2323;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.delete-session:hover {
+  background: #ff1a1a;
+}

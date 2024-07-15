@@ -1,0 +1,18 @@
+.btn-custom-orange {
+  background-color: #FF6600;
+  color: white;
+  border: none;
+}
+
+.btn-custom-orange:hover {
+  background-color: #e65c00;
+  color: white;
+}
+
+.card {
+  border: none;
+}
+
+.card-title {
+  color: #FF6600;
+}
