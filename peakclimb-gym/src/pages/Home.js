@@ -31,7 +31,7 @@ const Home = () => {
             <div className="row mt-4">
               <div className="col-md-4">
                 <div className="card text-center">
-                  <img src="/PeakClimb/images/beginner.jpg" className="card-img-top program-image" alt="Beginner Program" />
+                  <img src="/PeakClimb-Gym/images/beginner.jpg" className="card-img-top program-image" alt="Beginner Program" />
                   <div className="card-body">
                     <h3 className="card-title">{translations.beginnerProgram}</h3>
                     <p className="card-text">
@@ -42,7 +42,7 @@ const Home = () => {
               </div>
               <div className="col-md-4">
                 <div className="card text-center">
-                  <img src="/PeakClimb/images/intermediate.jpg" className="card-img-top program-image" alt="Intermediate Program" />
+                  <img src="/PeakClimb-Gym/images/intermediate.jpg" className="card-img-top program-image" alt="Intermediate Program" />
                   <div className="card-body">
                     <h3 className="card-title">{translations.intermediateProgram}</h3>
                     <p className="card-text">
@@ -53,7 +53,7 @@ const Home = () => {
               </div>
               <div className="col-md-4">
                 <div className="card text-center">
-                  <img src="/PeakClimb/images/expert.jpg" className="card-img-top program-image" alt="Advanced Program" />
+                  <img src="/PeakClimb-Gym/images/expert.jpg" className="card-img-top program-image" alt="Advanced Program" />
                   <div className="card-body">
                     <h3 className="card-title">{translations.advancedProgram}</h3>
                     <p className="card-text">

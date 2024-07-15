@@ -8,20 +8,12 @@ import Schedule from './pages/Schedule';
 import './App.css';
 
 const App = () => (
-  // <Routes>
-  //   <Route path="PeakClimb-Gym/" element={<Home />} />
-  //   <Route path="PeakClimb-Gym/booking" element={<Booking />} />
-  //   <Route path="PeakClimb-Gym/explore" element={<Explore />} />
-  //   <Route path="PeakClimb-Gym/info" element={<Info />} />
-  //   <Route path="PeakClimb-Gym/schedule" element={<Schedule />} />
-  // </Routes>
-
   <Routes>
-  <Route path="/" element={<Home />} />
-  <Route path="/booking" element={<Booking />} />
-  <Route path="/explore" element={<Explore />} />
-  <Route path="/info" element={<Info />} />
-  <Route path="/schedule" element={<Schedule />} />
+    <Route path="PeakClimb-Gym/" element={<Home />} />
+    <Route path="PeakClimb-Gym/booking" element={<Booking />} />
+    <Route path="PeakClimb-Gym/explore" element={<Explore />} />
+    <Route path="PeakClimb-Gym/info" element={<Info />} />
+    <Route path="PeakClimb-Gym/schedule" element={<Schedule />} />
   </Routes>
 );
 
