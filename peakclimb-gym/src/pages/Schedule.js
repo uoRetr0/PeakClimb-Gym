@@ -3,12 +3,14 @@ import { DndProvider, useDrag, useDrop } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import { useLanguage } from '../helpers/LanguageContext';
 import './Schedule.css';
 
 const Schedule = () => {
   const { translations } = useLanguage();
+  const navigate = useNavigate();
   const [schedule, setSchedule] = useState({
     Monday: [],
     Tuesday: [],
@@ -135,7 +137,7 @@ const Schedule = () => {
   };
 
   const handleAddSession = () => {
-    window.location.href = '/PeakClimb-Gym/explore';
+    navigate('/PeakClimb-Gym/explore');
   };
 
   return (
